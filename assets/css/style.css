@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(1, 250px);
+    justify-content: center;
+}
+
+main div{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
